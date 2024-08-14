@@ -1,6 +1,7 @@
 import { AppContext } from "@/context/context";
 import "@/styles/globals.css";
 import { type FC } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 type RootLayoutProps = {
   children: React.ReactNode;
 };
@@ -16,6 +17,7 @@ const RootLayout: FC<RootLayoutProps> = (props) => {
       <AppContext>
         <body className="">{props.children}</body>
       </AppContext>
+      <SpeedInsights/>
     </html>
   );
 };

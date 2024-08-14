@@ -1,5 +1,4 @@
 'use client'
-import { MessageList } from "@/components/MessageList";
 import { ConnectionStatusContext } from "@/context/appcontext";
 import { Button, Input } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
