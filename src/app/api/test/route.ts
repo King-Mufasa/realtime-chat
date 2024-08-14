@@ -7,6 +7,7 @@ export type ReturnDataType = {
   message: string;
   user: string;
   date: Date;
+  email:string
 };
 
 export async function POST(req: Request, res: Response) {

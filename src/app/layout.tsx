@@ -1,3 +1,4 @@
+import { AppContext } from "@/context/context";
 import "@/styles/globals.css";
 import { type FC } from "react";
 type RootLayoutProps = {
@@ -12,7 +13,9 @@ export const metadata = {
 const RootLayout: FC<RootLayoutProps> = (props) => {
   return (
     <html lang="ja">
-      <body className="">{props.children}</body>
+      <AppContext>
+        <body className="">{props.children}</body>
+      </AppContext>
     </html>
   );
 };
