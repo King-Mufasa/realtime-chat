@@ -37,3 +37,5 @@ To learn more about Next.js, take a look at the following resources:
 - [Pusher Channel](https://pusher.com/docs/channels/) - learn about Pusher features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+[Live Demo](https://fasachat.vercel.app/)
+
